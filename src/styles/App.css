@@ -1,10 +1,6 @@
 .App {
   text-align: center; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
 .App-header {
   padding: 10px;
   display: flex;
@@ -18,3 +14,8 @@
 
 div .tagLine {
   font-size: 32px; }
+
+@media screen and (min-width: 800px) {
+  .App-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr; } }
