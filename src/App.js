@@ -14,6 +14,15 @@ class App extends Component {
             <TextArea text="Web Dev" />
           </div>
         </header>
+        <p>
+          About Me
+        </p>
+        <p>
+          Projects
+        </p>
+        <p>
+          Experience
+        </p>
       </div>
     );
   }
