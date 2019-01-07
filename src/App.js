@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+//import { Route, Switch } from 'react-router-dom';
 import TextArea from './components/TextArea';
 import './styles/App.css';
+import { picture } from './media/me.jpg';
 
 class App extends Component {
   render() {
@@ -14,9 +15,7 @@ class App extends Component {
             <TextArea text="Web Dev" />
           </div>
         </header>
-        <p>
-          About Me
-        </p>
+        <img src={picture} alt="" />
         <p>
           Projects
         </p>
